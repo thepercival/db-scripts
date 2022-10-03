@@ -1,0 +1,1 @@
+SELECT DISTINCT ag.gameRoundNumber FROM againstGames ag where ag.state = '' 
