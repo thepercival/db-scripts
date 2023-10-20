@@ -1,0 +1,32 @@
+{
+	"folders": {},
+	"connections": {
+		"mariaDB-1843522c5c3-79279a2be3e21c26": {
+			"provider": "mysql",
+			"driver": "mariaDB",
+			"name": "voetbaloog",
+			"save-password": true,
+			"read-only": false,
+			"configuration": {
+				"host": "localhost",
+				"port": "3306",
+				"database": "voetbaloog",
+				"url": "jdbc:mariadb://localhost:3306/voetbaloog",
+				"type": "dev",
+				"auth-model": "native",
+				"handlers": {}
+			}
+		}
+	},
+	"connection-types": {
+		"dev": {
+			"name": "Development",
+			"color": "255,255,255",
+			"description": "Regular development database",
+			"auto-commit": true,
+			"confirm-execute": false,
+			"confirm-data-change": false,
+			"auto-close-transactions": false
+		}
+	}
+}
