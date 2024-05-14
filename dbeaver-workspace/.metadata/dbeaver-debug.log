@@ -1,0 +1,551 @@
+2024-05-14 15:05:07.880 - DBeaver 24.0.2.202404071654 is starting
+2024-05-14 15:05:07.880 - OS: Linux 6.1.0-18-amd64 (amd64)
+2024-05-14 15:05:07.881 - Java version: 17.0.6 by Eclipse Adoptium (64bit)
+2024-05-14 15:05:07.881 - Install path: '/usr/share/dbeaver-ce'
+2024-05-14 15:05:07.881 - Instance path: 'file:/home/coen/projecten/db-scripts/dbeaver-workspace/'
+2024-05-14 15:05:07.882 - Memory available 64Mb/1024Mb
+2024-05-14 15:05:07.888 - Create display
+> Start DBeaver UI Editors - Base [org.jkiss.dbeaver.ui.editors.base 1.0.128.202404071654]
+2024-05-14 15:05:07.982 - Starting instance server at http://localhost:45713
+2024-05-14 15:05:07.988 - Run workbench
+> Start Eclipse e4 Workbench SWT [org.eclipse.e4.ui.workbench.swt 0.17.200.v20231030-2045]
+> Start Eclipse Application Services [org.eclipse.e4.core.services 2.4.200.v20231103-2012]
+> Start Eclipse UI Application Services [org.eclipse.e4.ui.services 1.6.200.v20231030-2045]
+> Start Eclipse e4 Progress View [org.eclipse.e4.ui.progress 0.4.200.v20231030-2045]
+> Start Eclipse Bindings Support [org.eclipse.e4.ui.bindings 0.14.200.v20231030-2045]
+> Start Eclipse e4 core commands [org.eclipse.e4.core.commands 1.1.200.v20231108-1058]
+> Start EMF XML/XMI Persistence [org.eclipse.emf.ecore.xmi 2.36.0.v20231002-1156]
+> Start Eclipse CSS SWT Theme Support [org.eclipse.e4.ui.css.swt.theme 0.14.200.v20230913-1724]
+> Start Eclipse e4 Workbench Add-ons [org.eclipse.e4.ui.workbench.addons.swt 1.5.200.v20231106-1600]
+> Start Eclipse e4 Workbench SWT Renderer [org.eclipse.e4.ui.workbench.renderers.swt 0.16.200.v20231030-2045]
+> Start Eclipse Dependency Injection Extensions [org.eclipse.e4.core.di.extensions 0.18.100.v20231103-2012]
+> Start Eclipse CSS SWT Support [org.eclipse.e4.ui.css.swt 0.15.200.v20231025-0632]
+2024-05-14 15:05:09.425 - Configure workbench window
+> Start DBeaver SQL Model [org.jkiss.dbeaver.model.sql 1.0.118.202404071654]
+2024-05-14 15:05:09.541 - Total database drivers: 111 (111)
+> Start Help System Core [org.eclipse.help 3.10.200.v20231106-1240]
+2024-05-14 15:05:09.595 - Create actions
+2024-05-14 15:05:09.600 - Disable Eclipse action set 'org.eclipse.ui.edit.text.actionSet.annotationNavigation'
+2024-05-14 15:05:09.600 - Disable Eclipse action set 'org.eclipse.ui.WorkingSetActionSet'
+2024-05-14 15:05:09.600 - Disable Eclipse action set 'org.eclipse.ui.actionSet.openFiles'
+2024-05-14 15:05:09.600 - Create workbench actions
+> Start jna [com.sun.jna 5.13.0.v20230812-1000]
+2024-05-14 15:05:09.992 - Initialize workbench window
+2024-05-14 15:05:09.998 - Finish initialization
+> Start Internet Connection Management UI [org.eclipse.ui.net 1.5.200.v20231106-1240]
+> Start Internet Connection Management [org.eclipse.core.net 1.5.200.v20231106-1240]
+> Start DBeaver UI Editors - Data [org.jkiss.dbeaver.ui.editors.data 1.0.128.202404071654]
+> Start DBeaver UI Editors - SQL [org.jkiss.dbeaver.ui.editors.sql 1.0.128.202404071654]
+> Start DBeaver Sample Database [org.jkiss.dbeaver.ext.sample.database 1.0.165.202404071654]
+> Start DBeaver Tip of the day [org.jkiss.dbeaver.ext.ui.tipoftheday 1.0.134.202404071654]
+> Start GEF Classic Draw2d [org.eclipse.draw2d 3.14.100.202311222042]
+> Start GEF Classic GEF (MVC) [org.eclipse.gef 3.16.0.202311222042]
+> Start DBeaver ERD UI [org.jkiss.dbeaver.erd.ui 3.0.88.202404071654]
+> Start DBeaver ERD Model [org.jkiss.dbeaver.erd.model 1.0.88.202404071654]
+> Start DBeaver Dashboard UI [org.jkiss.dbeaver.ui.dashboard 1.0.125.202404071654]
+> Start DBeaver Dashboards Model [org.jkiss.dbeaver.model.dashboard 1.0.1.202404071654]
+> Start Default Text Editor [org.eclipse.ui.editors 3.17.100.v20231106-1600]
+> Start Text Editor Framework [org.eclipse.ui.workbench.texteditor 3.17.200.v20231106-1600]
+> Start DBeaver UI Editors - Connections [org.jkiss.dbeaver.ui.editors.connection 1.0.119.202404071654]
+> Start DBeaver MySQL UI Support [org.jkiss.dbeaver.ext.mysql.ui 1.0.120.202404071654]
+> Start DBeaver JDBC Model [org.jkiss.dbeaver.model.jdbc 1.0.21.202404071654]
+> Start DBeaver MySQL Support [org.jkiss.dbeaver.ext.mysql 2.1.213.202404071654]
+2024-05-14 15:06:35.741 - Unable to examine folder /usr/lib while looking for a client home
+java.nio.file.AccessDeniedException: /usr/lib/mysql/plugin/auth_pam_tool_dir
+	at java.base/sun.nio.fs.UnixException.translateToIOException(Unknown Source)
+	at java.base/sun.nio.fs.UnixException.rethrowAsIOException(Unknown Source)
+	at java.base/sun.nio.fs.UnixException.rethrowAsIOException(Unknown Source)
+	at java.base/sun.nio.fs.UnixFileSystemProvider.newDirectoryStream(Unknown Source)
+	at java.base/java.nio.file.Files.newDirectoryStream(Unknown Source)
+	at java.base/java.nio.file.FileTreeWalker.visit(Unknown Source)
+	at java.base/java.nio.file.FileTreeWalker.next(Unknown Source)
+	at java.base/java.nio.file.Files.walkFileTree(Unknown Source)
+	at java.base/java.nio.file.Files.walkFileTree(Unknown Source)
+	at org.jkiss.dbeaver.model.connection.NativeClientLocationUtils.findLocalClientsOnUnix(NativeClientLocationUtils.java:67)
+	at org.jkiss.dbeaver.ext.mysql.MySQLDataSourceProvider.findUnixLocalClients(MySQLDataSourceProvider.java:258)
+	at org.jkiss.dbeaver.ext.mysql.MySQLDataSourceProvider.findLocalClients(MySQLDataSourceProvider.java:192)
+	at org.jkiss.dbeaver.ext.mysql.MySQLDataSourceProvider.getDefaultLocalClientLocation(MySQLDataSourceProvider.java:167)
+	at org.jkiss.dbeaver.registry.driver.DriverDescriptor.getDefaultClientLocation(DriverDescriptor.java:1774)
+	at org.jkiss.dbeaver.ui.dialogs.connection.ConnectionWizard.getActiveDataSource(ConnectionWizard.java:128)
+	at org.jkiss.dbeaver.ui.dialogs.connection.ConnectionPageSettings.getActiveDataSource(ConnectionPageSettings.java:497)
+	at org.jkiss.dbeaver.ui.dialogs.connection.ConnectionPageSettings.getDialogPages(ConnectionPageSettings.java:574)
+	at org.jkiss.dbeaver.ui.dialogs.connection.ConnectionPageSettings.createProviderPage(ConnectionPageSettings.java:259)
+	at org.jkiss.dbeaver.ui.dialogs.connection.ConnectionPageSettings.activatePage(ConnectionPageSettings.java:160)
+	at org.jkiss.dbeaver.ui.dialogs.ActiveWizardPage.setVisible(ActiveWizardPage.java:56)
+	at org.eclipse.jface.wizard.WizardDialog.updateForPage(WizardDialog.java:1257)
+	at org.eclipse.jface.wizard.WizardDialog.lambda$3(WizardDialog.java:1227)
+	at org.eclipse.swt.custom.BusyIndicator.showWhile(BusyIndicator.java:67)
+	at org.eclipse.jface.wizard.WizardDialog.showPage(WizardDialog.java:1227)
+	at org.jkiss.dbeaver.ui.dialogs.ActiveWizardDialog.showPage(ActiveWizardDialog.java:101)
+	at org.eclipse.jface.wizard.WizardDialog.nextPressed(WizardDialog.java:922)
+	at org.eclipse.jface.wizard.WizardDialog.buttonPressed(WizardDialog.java:469)
+	at org.jkiss.dbeaver.ui.dialogs.connection.NewConnectionDialog.buttonPressed(NewConnectionDialog.java:93)
+	at org.eclipse.jface.dialogs.Dialog.lambda$0(Dialog.java:619)
+	at org.eclipse.swt.events.SelectionListener$1.widgetSelected(SelectionListener.java:84)
+	at org.eclipse.swt.widgets.TypedListener.handleEvent(TypedListener.java:252)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:89)
+	at org.eclipse.swt.widgets.Display.sendEvent(Display.java:5854)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1529)
+	at org.eclipse.swt.widgets.Display.runDeferredEvents(Display.java:5064)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:4516)
+	at org.eclipse.jface.window.Window.runEventLoop(Window.java:823)
+	at org.eclipse.jface.window.Window.open(Window.java:799)
+	at org.jkiss.dbeaver.ui.dialogs.connection.NewConnectionDialog.open(NewConnectionDialog.java:116)
+	at org.jkiss.dbeaver.ui.dialogs.connection.NewConnectionDialog.openNewConnectionDialog(NewConnectionDialog.java:151)
+	at org.jkiss.dbeaver.ui.dialogs.connection.NewConnectionDialog.openNewConnectionDialog(NewConnectionDialog.java:132)
+	at org.jkiss.dbeaver.ui.dialogs.connection.NewConnectionDialog.openNewConnectionDialog(NewConnectionDialog.java:124)
+	at org.jkiss.dbeaver.registry.DataSourceDescriptorManager.lambda$0(DataSourceDescriptorManager.java:110)
+	at org.eclipse.swt.widgets.RunnableLock.run(RunnableLock.java:40)
+	at org.eclipse.swt.widgets.Synchronizer.runAsyncMessages(Synchronizer.java:132)
+	at org.eclipse.swt.widgets.Display.runAsyncMessages(Display.java:5039)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:4519)
+	at org.eclipse.jface.operation.ModalContext$ModalContextThread.block(ModalContext.java:166)
+	at org.eclipse.jface.operation.ModalContext.run(ModalContext.java:368)
+	at org.eclipse.ui.internal.WorkbenchWindow.lambda$7(WorkbenchWindow.java:2348)
+	at org.eclipse.swt.custom.BusyIndicator.showWhile(BusyIndicator.java:67)
+	at org.eclipse.ui.internal.WorkbenchWindow.run(WorkbenchWindow.java:2345)
+	at org.jkiss.dbeaver.runtime.RunnableContextDelegate.run(RunnableContextDelegate.java:39)
+	at org.jkiss.dbeaver.ui.UIUtils.runInProgressService(UIUtils.java:1925)
+	at org.jkiss.dbeaver.ui.navigator.actions.NavigatorHandlerObjectCreateBase.createDatabaseObject(NavigatorHandlerObjectCreateBase.java:186)
+	at org.jkiss.dbeaver.ui.navigator.actions.NavigatorHandlerObjectCreateBase.createNewObject(NavigatorHandlerObjectCreateBase.java:167)
+	at org.jkiss.dbeaver.ui.navigator.actions.NavigatorHandlerObjectCreateNew.execute(NavigatorHandlerObjectCreateNew.java:135)
+	at org.eclipse.ui.internal.handlers.HandlerProxy.execute(HandlerProxy.java:283)
+	at org.eclipse.ui.internal.handlers.E4HandlerProxy.execute(E4HandlerProxy.java:99)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.base/java.lang.reflect.Method.invoke(Unknown Source)
+	at org.eclipse.e4.core.internal.di.MethodRequestor.execute(MethodRequestor.java:58)
+	at org.eclipse.e4.core.internal.di.InjectorImpl.invokeUsingClass(InjectorImpl.java:298)
+	at org.eclipse.e4.core.internal.di.InjectorImpl.invoke(InjectorImpl.java:232)
+	at org.eclipse.e4.core.contexts.ContextInjectionFactory.invoke(ContextInjectionFactory.java:174)
+	at org.eclipse.e4.core.commands.internal.HandlerServiceHandler.execute(HandlerServiceHandler.java:165)
+	at org.eclipse.core.commands.Command.executeWithChecks(Command.java:488)
+	at org.eclipse.core.commands.ParameterizedCommand.executeWithChecks(ParameterizedCommand.java:485)
+	at org.eclipse.e4.core.commands.internal.HandlerServiceImpl.executeHandler(HandlerServiceImpl.java:213)
+	at org.eclipse.ui.internal.handlers.LegacyHandlerService.executeCommand(LegacyHandlerService.java:389)
+	at org.eclipse.ui.menus.CommandContributionItem.handleWidgetSelection(CommandContributionItem.java:785)
+	at org.eclipse.ui.menus.CommandContributionItem.lambda$3(CommandContributionItem.java:762)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:89)
+	at org.eclipse.swt.widgets.Display.sendEvent(Display.java:5854)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1529)
+	at org.eclipse.swt.widgets.Display.runDeferredEvents(Display.java:5064)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:4516)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$5.run(PartRenderingEngine.java:1155)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:342)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.run(PartRenderingEngine.java:1046)
+	at org.eclipse.e4.ui.internal.workbench.E4Workbench.createAndRunUI(E4Workbench.java:155)
+	at org.eclipse.ui.internal.Workbench.lambda$3(Workbench.java:648)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:342)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:555)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:173)
+	at org.jkiss.dbeaver.ui.app.standalone.DBeaverApplication.start(DBeaverApplication.java:295)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:208)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:136)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:104)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:402)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:255)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.base/java.lang.reflect.Method.invoke(Unknown Source)
+	at org.jkiss.dbeaver.launcher.DBeaverLauncher.invokeFramework(DBeaverLauncher.java:647)
+	at org.jkiss.dbeaver.launcher.DBeaverLauncher.basicRun(DBeaverLauncher.java:607)
+	at org.jkiss.dbeaver.launcher.DBeaverLauncher.run(DBeaverLauncher.java:1464)
+	at org.jkiss.dbeaver.launcher.DBeaverLauncher.main(DBeaverLauncher.java:1437)
+2024-05-14 15:06:35.893 - Service 'org.jkiss.dbeaver.runtime.ui.UIServiceSecurity' not found
+2024-05-14 15:06:47.476 - Open [https://repo1.maven.org/maven2/com/mysql/mysql-connector-j/8.2.0/mysql-connector-j-8.2.0.pom]
+2024-05-14 15:06:47.790 - Open [https://repo1.maven.org/maven2/com/google/protobuf/protobuf-java/3.21.9/protobuf-java-3.21.9.pom]
+2024-05-14 15:06:47.809 - Open [https://repo1.maven.org/maven2/com/google/protobuf/protobuf-parent/3.21.9/protobuf-parent-3.21.9.pom]
+2024-05-14 15:06:47.831 - Open [https://repo1.maven.org/maven2/com/google/protobuf/protobuf-bom/3.21.9/protobuf-bom-3.21.9.pom]
+2024-05-14 15:06:48.815 - Open [https://repo1.maven.org/maven2/com/mysql/mysql-connector-j/8.2.0/mysql-connector-j-8.2.0.jar]
+2024-05-14 15:06:48.973 - Open [https://repo1.maven.org/maven2/com/google/protobuf/protobuf-java/3.21.9/protobuf-java-3.21.9.jar]
+2024-05-14 15:06:49.060 - Open [https://www.gnu.org/licenses/old-licenses/lgpl-2.0.txt]
+2024-05-14 15:06:49.599 - Connect with 'jdbc:mysql://localhost:3306/sportsscheduler' (mysql8-18f77366fa0-175b24afd8f6c3fd)
+2024-05-14 15:06:49.635 - Execution context opened (jdbc:mysql://localhost:3306/sportsscheduler; Main; 0)
+> Start DBeaver GIS Support [org.jkiss.dbeaver.data.gis 1.0.152.202404071654]
+2024-05-14 15:06:49.863 - Charset 'null' not found.
+2024-05-14 15:06:49.864 - Charset 'null' not found.
+2024-05-14 15:06:49.864 - Charset 'null' not found.
+2024-05-14 15:06:49.864 - Charset 'null' not found.
+2024-05-14 15:06:49.865 - Charset 'null' not found.
+2024-05-14 15:06:49.865 - Charset 'null' not found.
+2024-05-14 15:06:49.865 - Charset 'null' not found.
+2024-05-14 15:06:49.865 - Charset 'null' not found.
+2024-05-14 15:06:49.866 - Charset 'null' not found.
+2024-05-14 15:06:49.866 - Charset 'null' not found.
+2024-05-14 15:06:49.866 - Charset 'null' not found.
+2024-05-14 15:06:49.866 - Charset 'null' not found.
+2024-05-14 15:06:49.866 - Charset 'null' not found.
+2024-05-14 15:06:49.867 - Charset 'null' not found.
+2024-05-14 15:06:49.867 - Charset 'null' not found.
+2024-05-14 15:06:49.867 - Charset 'null' not found.
+2024-05-14 15:06:49.868 - Charset 'null' not found.
+2024-05-14 15:06:49.868 - Charset 'null' not found.
+2024-05-14 15:06:49.868 - Charset 'null' not found.
+2024-05-14 15:06:49.868 - Charset 'null' not found.
+2024-05-14 15:06:49.869 - Charset 'null' not found.
+2024-05-14 15:06:49.869 - Charset 'null' not found.
+2024-05-14 15:06:49.869 - Charset 'null' not found.
+2024-05-14 15:06:49.869 - Charset 'null' not found.
+2024-05-14 15:06:49.870 - Charset 'null' not found.
+2024-05-14 15:06:49.870 - Charset 'null' not found.
+2024-05-14 15:06:49.870 - Charset 'null' not found.
+2024-05-14 15:06:49.871 - Charset 'null' not found.
+2024-05-14 15:06:49.871 - Charset 'null' not found.
+2024-05-14 15:06:49.871 - Charset 'null' not found.
+2024-05-14 15:06:49.871 - Charset 'null' not found.
+2024-05-14 15:06:49.871 - Charset 'null' not found.
+2024-05-14 15:06:49.872 - Charset 'null' not found.
+2024-05-14 15:06:49.872 - Charset 'null' not found.
+2024-05-14 15:06:49.872 - Charset 'null' not found.
+2024-05-14 15:06:49.872 - Charset 'null' not found.
+2024-05-14 15:06:49.872 - Charset 'null' not found.
+2024-05-14 15:06:49.873 - Charset 'null' not found.
+2024-05-14 15:06:49.873 - Charset 'null' not found.
+2024-05-14 15:06:49.873 - Charset 'null' not found.
+2024-05-14 15:06:49.873 - Charset 'null' not found.
+2024-05-14 15:06:49.874 - Charset 'null' not found.
+2024-05-14 15:06:49.874 - Charset 'null' not found.
+2024-05-14 15:06:49.874 - Charset 'null' not found.
+2024-05-14 15:06:49.874 - Charset 'null' not found.
+2024-05-14 15:06:49.874 - Charset 'null' not found.
+2024-05-14 15:06:49.875 - Charset 'null' not found.
+2024-05-14 15:06:49.875 - Charset 'null' not found.
+2024-05-14 15:06:49.875 - Charset 'null' not found.
+2024-05-14 15:06:49.875 - Charset 'null' not found.
+2024-05-14 15:06:49.875 - Charset 'null' not found.
+2024-05-14 15:06:49.876 - Charset 'null' not found.
+2024-05-14 15:06:49.876 - Charset 'null' not found.
+2024-05-14 15:06:49.876 - Charset 'null' not found.
+2024-05-14 15:06:49.876 - Charset 'null' not found.
+2024-05-14 15:06:49.877 - Charset 'null' not found.
+2024-05-14 15:06:49.877 - Charset 'null' not found.
+2024-05-14 15:06:49.877 - Charset 'null' not found.
+2024-05-14 15:06:49.877 - Charset 'null' not found.
+2024-05-14 15:06:49.878 - Charset 'null' not found.
+2024-05-14 15:06:49.878 - Charset 'null' not found.
+2024-05-14 15:06:49.878 - Charset 'null' not found.
+2024-05-14 15:06:49.878 - Charset 'null' not found.
+2024-05-14 15:06:49.878 - Charset 'null' not found.
+2024-05-14 15:06:49.879 - Charset 'null' not found.
+2024-05-14 15:06:49.879 - Charset 'null' not found.
+2024-05-14 15:06:49.879 - Charset 'null' not found.
+2024-05-14 15:06:49.879 - Charset 'null' not found.
+2024-05-14 15:06:49.880 - Charset 'null' not found.
+2024-05-14 15:06:49.880 - Charset 'null' not found.
+2024-05-14 15:06:49.880 - Charset 'null' not found.
+2024-05-14 15:06:49.880 - Charset 'null' not found.
+2024-05-14 15:06:49.881 - Charset 'null' not found.
+2024-05-14 15:06:49.881 - Charset 'null' not found.
+2024-05-14 15:06:49.881 - Charset 'null' not found.
+2024-05-14 15:06:49.881 - Charset 'null' not found.
+2024-05-14 15:06:49.881 - Charset 'null' not found.
+2024-05-14 15:06:49.881 - Charset 'null' not found.
+2024-05-14 15:06:49.882 - Charset 'null' not found.
+2024-05-14 15:06:49.882 - Charset 'null' not found.
+2024-05-14 15:06:49.882 - Charset 'null' not found.
+2024-05-14 15:06:49.882 - Charset 'null' not found.
+2024-05-14 15:06:49.883 - Charset 'null' not found.
+2024-05-14 15:06:49.883 - Charset 'null' not found.
+2024-05-14 15:06:49.883 - Charset 'null' not found.
+2024-05-14 15:06:49.883 - Charset 'null' not found.
+2024-05-14 15:06:49.883 - Charset 'null' not found.
+2024-05-14 15:06:49.884 - Charset 'null' not found.
+2024-05-14 15:06:49.884 - Charset 'null' not found.
+2024-05-14 15:06:49.884 - Charset 'null' not found.
+2024-05-14 15:06:49.884 - Charset 'null' not found.
+2024-05-14 15:06:49.884 - Charset 'null' not found.
+2024-05-14 15:06:49.885 - Charset 'null' not found.
+2024-05-14 15:06:49.885 - Charset 'null' not found.
+2024-05-14 15:06:49.885 - Charset 'null' not found.
+2024-05-14 15:06:49.885 - Charset 'null' not found.
+2024-05-14 15:06:49.885 - Charset 'null' not found.
+2024-05-14 15:06:49.886 - Charset 'null' not found.
+2024-05-14 15:06:49.886 - Charset 'null' not found.
+2024-05-14 15:06:49.886 - Charset 'null' not found.
+2024-05-14 15:06:49.886 - Charset 'null' not found.
+2024-05-14 15:06:49.886 - Charset 'null' not found.
+2024-05-14 15:06:49.887 - Charset 'null' not found.
+2024-05-14 15:06:49.887 - Charset 'null' not found.
+2024-05-14 15:06:49.887 - Charset 'null' not found.
+2024-05-14 15:06:49.887 - Charset 'null' not found.
+2024-05-14 15:06:49.887 - Charset 'null' not found.
+2024-05-14 15:06:49.888 - Charset 'null' not found.
+2024-05-14 15:06:49.888 - Charset 'null' not found.
+2024-05-14 15:06:49.888 - Charset 'null' not found.
+2024-05-14 15:06:49.888 - Charset 'null' not found.
+2024-05-14 15:06:49.888 - Charset 'null' not found.
+2024-05-14 15:06:49.888 - Charset 'null' not found.
+2024-05-14 15:06:49.889 - Charset 'null' not found.
+2024-05-14 15:06:49.889 - Charset 'null' not found.
+2024-05-14 15:06:49.889 - Charset 'null' not found.
+2024-05-14 15:06:49.889 - Charset 'null' not found.
+2024-05-14 15:06:49.889 - Charset 'null' not found.
+2024-05-14 15:06:49.890 - Charset 'null' not found.
+2024-05-14 15:06:49.890 - Charset 'null' not found.
+2024-05-14 15:06:49.890 - Charset 'null' not found.
+2024-05-14 15:06:49.890 - Charset 'null' not found.
+2024-05-14 15:06:49.890 - Charset 'null' not found.
+2024-05-14 15:06:49.890 - Charset 'null' not found.
+2024-05-14 15:06:49.891 - Charset 'null' not found.
+2024-05-14 15:06:49.891 - Charset 'null' not found.
+2024-05-14 15:06:49.891 - Charset 'null' not found.
+2024-05-14 15:06:49.891 - Charset 'null' not found.
+2024-05-14 15:06:49.891 - Charset 'null' not found.
+2024-05-14 15:06:49.892 - Charset 'null' not found.
+2024-05-14 15:06:49.892 - Charset 'null' not found.
+2024-05-14 15:06:49.892 - Charset 'null' not found.
+2024-05-14 15:06:49.892 - Charset 'null' not found.
+2024-05-14 15:06:49.892 - Charset 'null' not found.
+2024-05-14 15:06:49.892 - Charset 'null' not found.
+2024-05-14 15:06:49.893 - Charset 'null' not found.
+2024-05-14 15:06:49.893 - Charset 'null' not found.
+2024-05-14 15:06:49.893 - Charset 'null' not found.
+2024-05-14 15:06:49.893 - Charset 'null' not found.
+2024-05-14 15:06:49.893 - Charset 'null' not found.
+2024-05-14 15:06:49.894 - Charset 'null' not found.
+2024-05-14 15:06:49.894 - Charset 'null' not found.
+2024-05-14 15:06:49.894 - Charset 'null' not found.
+2024-05-14 15:06:49.894 - Charset 'null' not found.
+2024-05-14 15:06:49.894 - Charset 'null' not found.
+2024-05-14 15:06:49.895 - Charset 'null' not found.
+2024-05-14 15:06:49.895 - Charset 'null' not found.
+2024-05-14 15:06:49.895 - Charset 'null' not found.
+2024-05-14 15:06:49.895 - Charset 'null' not found.
+2024-05-14 15:06:49.895 - Charset 'null' not found.
+2024-05-14 15:06:49.896 - Charset 'null' not found.
+2024-05-14 15:06:49.896 - Charset 'null' not found.
+2024-05-14 15:06:49.896 - Charset 'null' not found.
+2024-05-14 15:06:49.896 - Charset 'null' not found.
+2024-05-14 15:06:49.896 - Charset 'null' not found.
+2024-05-14 15:06:49.897 - Charset 'null' not found.
+2024-05-14 15:06:49.897 - Charset 'null' not found.
+2024-05-14 15:06:49.897 - Charset 'null' not found.
+2024-05-14 15:06:49.897 - Charset 'null' not found.
+2024-05-14 15:06:49.897 - Charset 'null' not found.
+2024-05-14 15:06:49.898 - Charset 'null' not found.
+2024-05-14 15:06:49.898 - Charset 'null' not found.
+2024-05-14 15:06:49.898 - Charset 'null' not found.
+2024-05-14 15:06:49.898 - Charset 'null' not found.
+2024-05-14 15:06:49.898 - Charset 'null' not found.
+2024-05-14 15:06:49.899 - Charset 'null' not found.
+2024-05-14 15:06:49.899 - Charset 'null' not found.
+2024-05-14 15:06:49.899 - Charset 'null' not found.
+2024-05-14 15:06:49.899 - Charset 'null' not found.
+2024-05-14 15:06:49.899 - Charset 'null' not found.
+2024-05-14 15:06:49.900 - Charset 'null' not found.
+2024-05-14 15:06:49.900 - Charset 'null' not found.
+2024-05-14 15:06:49.900 - Charset 'null' not found.
+2024-05-14 15:06:49.900 - Charset 'null' not found.
+2024-05-14 15:06:49.900 - Charset 'null' not found.
+2024-05-14 15:06:49.900 - Charset 'null' not found.
+2024-05-14 15:06:49.901 - Charset 'null' not found.
+2024-05-14 15:06:49.901 - Charset 'null' not found.
+2024-05-14 15:06:49.901 - Charset 'null' not found.
+2024-05-14 15:06:49.901 - Charset 'null' not found.
+2024-05-14 15:06:49.901 - Charset 'null' not found.
+2024-05-14 15:06:49.901 - Charset 'null' not found.
+2024-05-14 15:06:49.902 - Charset 'null' not found.
+2024-05-14 15:06:49.902 - Charset 'null' not found.
+2024-05-14 15:06:49.927 - Connected (mysql8-18f77366fa0-175b24afd8f6c3fd, MySQL Connector/J [mysql-connector-j-8.2.0 (Revision: 06a1f724497fd81c6a659131fda822c9e5085b6c)])
+2024-05-14 15:06:49.940 - Execution context closed (jdbc:mysql://localhost:3306/sportsscheduler, 0)
+2024-05-14 15:06:49.940 - Disconnected (mysql8-18f77366fa0-175b24afd8f6c3fd)
+2024-05-14 15:06:52.768 - Connect with 'jdbc:mysql://localhost:3306/sportsscheduler' (mysql8-18f773684d0-2cba79ad92a4f8ce)
+2024-05-14 15:06:52.769 - Execution context opened (jdbc:mysql://localhost:3306/sportsscheduler; Main; 1)
+2024-05-14 15:06:52.784 - Charset 'null' not found.
+2024-05-14 15:06:52.785 - Charset 'null' not found.
+2024-05-14 15:06:52.785 - Charset 'null' not found.
+2024-05-14 15:06:52.785 - Charset 'null' not found.
+2024-05-14 15:06:52.785 - Charset 'null' not found.
+2024-05-14 15:06:52.786 - Charset 'null' not found.
+2024-05-14 15:06:52.786 - Charset 'null' not found.
+2024-05-14 15:06:52.786 - Charset 'null' not found.
+2024-05-14 15:06:52.786 - Charset 'null' not found.
+2024-05-14 15:06:52.786 - Charset 'null' not found.
+2024-05-14 15:06:52.786 - Charset 'null' not found.
+2024-05-14 15:06:52.786 - Charset 'null' not found.
+2024-05-14 15:06:52.787 - Charset 'null' not found.
+2024-05-14 15:06:52.787 - Charset 'null' not found.
+2024-05-14 15:06:52.787 - Charset 'null' not found.
+2024-05-14 15:06:52.787 - Charset 'null' not found.
+2024-05-14 15:06:52.787 - Charset 'null' not found.
+2024-05-14 15:06:52.787 - Charset 'null' not found.
+2024-05-14 15:06:52.788 - Charset 'null' not found.
+2024-05-14 15:06:52.788 - Charset 'null' not found.
+2024-05-14 15:06:52.788 - Charset 'null' not found.
+2024-05-14 15:06:52.788 - Charset 'null' not found.
+2024-05-14 15:06:52.788 - Charset 'null' not found.
+2024-05-14 15:06:52.788 - Charset 'null' not found.
+2024-05-14 15:06:52.789 - Charset 'null' not found.
+2024-05-14 15:06:52.789 - Charset 'null' not found.
+2024-05-14 15:06:52.789 - Charset 'null' not found.
+2024-05-14 15:06:52.789 - Charset 'null' not found.
+2024-05-14 15:06:52.789 - Charset 'null' not found.
+2024-05-14 15:06:52.789 - Charset 'null' not found.
+2024-05-14 15:06:52.789 - Charset 'null' not found.
+2024-05-14 15:06:52.790 - Charset 'null' not found.
+2024-05-14 15:06:52.790 - Charset 'null' not found.
+2024-05-14 15:06:52.790 - Charset 'null' not found.
+2024-05-14 15:06:52.790 - Charset 'null' not found.
+2024-05-14 15:06:52.790 - Charset 'null' not found.
+2024-05-14 15:06:52.790 - Charset 'null' not found.
+2024-05-14 15:06:52.790 - Charset 'null' not found.
+2024-05-14 15:06:52.791 - Charset 'null' not found.
+2024-05-14 15:06:52.792 - Charset 'null' not found.
+2024-05-14 15:06:52.793 - Charset 'null' not found.
+2024-05-14 15:06:52.793 - Charset 'null' not found.
+2024-05-14 15:06:52.793 - Charset 'null' not found.
+2024-05-14 15:06:52.793 - Charset 'null' not found.
+2024-05-14 15:06:52.793 - Charset 'null' not found.
+2024-05-14 15:06:52.793 - Charset 'null' not found.
+2024-05-14 15:06:52.793 - Charset 'null' not found.
+2024-05-14 15:06:52.794 - Charset 'null' not found.
+2024-05-14 15:06:52.794 - Charset 'null' not found.
+2024-05-14 15:06:52.794 - Charset 'null' not found.
+2024-05-14 15:06:52.794 - Charset 'null' not found.
+2024-05-14 15:06:52.794 - Charset 'null' not found.
+2024-05-14 15:06:52.794 - Charset 'null' not found.
+2024-05-14 15:06:52.794 - Charset 'null' not found.
+2024-05-14 15:06:52.794 - Charset 'null' not found.
+2024-05-14 15:06:52.795 - Charset 'null' not found.
+2024-05-14 15:06:52.795 - Charset 'null' not found.
+2024-05-14 15:06:52.795 - Charset 'null' not found.
+2024-05-14 15:06:52.795 - Charset 'null' not found.
+2024-05-14 15:06:52.795 - Charset 'null' not found.
+2024-05-14 15:06:52.795 - Charset 'null' not found.
+2024-05-14 15:06:52.795 - Charset 'null' not found.
+2024-05-14 15:06:52.795 - Charset 'null' not found.
+2024-05-14 15:06:52.796 - Charset 'null' not found.
+2024-05-14 15:06:52.796 - Charset 'null' not found.
+2024-05-14 15:06:52.796 - Charset 'null' not found.
+2024-05-14 15:06:52.796 - Charset 'null' not found.
+2024-05-14 15:06:52.796 - Charset 'null' not found.
+2024-05-14 15:06:52.796 - Charset 'null' not found.
+2024-05-14 15:06:52.796 - Charset 'null' not found.
+2024-05-14 15:06:52.796 - Charset 'null' not found.
+2024-05-14 15:06:52.797 - Charset 'null' not found.
+2024-05-14 15:06:52.797 - Charset 'null' not found.
+2024-05-14 15:06:52.797 - Charset 'null' not found.
+2024-05-14 15:06:52.797 - Charset 'null' not found.
+2024-05-14 15:06:52.797 - Charset 'null' not found.
+2024-05-14 15:06:52.797 - Charset 'null' not found.
+2024-05-14 15:06:52.797 - Charset 'null' not found.
+2024-05-14 15:06:52.797 - Charset 'null' not found.
+2024-05-14 15:06:52.797 - Charset 'null' not found.
+2024-05-14 15:06:52.798 - Charset 'null' not found.
+2024-05-14 15:06:52.798 - Charset 'null' not found.
+2024-05-14 15:06:52.798 - Charset 'null' not found.
+2024-05-14 15:06:52.798 - Charset 'null' not found.
+2024-05-14 15:06:52.798 - Charset 'null' not found.
+2024-05-14 15:06:52.798 - Charset 'null' not found.
+2024-05-14 15:06:52.798 - Charset 'null' not found.
+2024-05-14 15:06:52.798 - Charset 'null' not found.
+2024-05-14 15:06:52.799 - Charset 'null' not found.
+2024-05-14 15:06:52.799 - Charset 'null' not found.
+2024-05-14 15:06:52.799 - Charset 'null' not found.
+2024-05-14 15:06:52.799 - Charset 'null' not found.
+2024-05-14 15:06:52.799 - Charset 'null' not found.
+2024-05-14 15:06:52.799 - Charset 'null' not found.
+2024-05-14 15:06:52.799 - Charset 'null' not found.
+2024-05-14 15:06:52.800 - Charset 'null' not found.
+2024-05-14 15:06:52.800 - Charset 'null' not found.
+2024-05-14 15:06:52.800 - Charset 'null' not found.
+2024-05-14 15:06:52.800 - Charset 'null' not found.
+2024-05-14 15:06:52.800 - Charset 'null' not found.
+2024-05-14 15:06:52.800 - Charset 'null' not found.
+2024-05-14 15:06:52.800 - Charset 'null' not found.
+2024-05-14 15:06:52.801 - Charset 'null' not found.
+2024-05-14 15:06:52.801 - Charset 'null' not found.
+2024-05-14 15:06:52.801 - Charset 'null' not found.
+2024-05-14 15:06:52.801 - Charset 'null' not found.
+2024-05-14 15:06:52.801 - Charset 'null' not found.
+2024-05-14 15:06:52.801 - Charset 'null' not found.
+2024-05-14 15:06:52.801 - Charset 'null' not found.
+2024-05-14 15:06:52.801 - Charset 'null' not found.
+2024-05-14 15:06:52.802 - Charset 'null' not found.
+2024-05-14 15:06:52.802 - Charset 'null' not found.
+2024-05-14 15:06:52.802 - Charset 'null' not found.
+2024-05-14 15:06:52.802 - Charset 'null' not found.
+2024-05-14 15:06:52.802 - Charset 'null' not found.
+2024-05-14 15:06:52.802 - Charset 'null' not found.
+2024-05-14 15:06:52.802 - Charset 'null' not found.
+2024-05-14 15:06:52.803 - Charset 'null' not found.
+2024-05-14 15:06:52.803 - Charset 'null' not found.
+2024-05-14 15:06:52.803 - Charset 'null' not found.
+2024-05-14 15:06:52.803 - Charset 'null' not found.
+2024-05-14 15:06:52.803 - Charset 'null' not found.
+2024-05-14 15:06:52.803 - Charset 'null' not found.
+2024-05-14 15:06:52.804 - Charset 'null' not found.
+2024-05-14 15:06:52.804 - Charset 'null' not found.
+2024-05-14 15:06:52.804 - Charset 'null' not found.
+2024-05-14 15:06:52.804 - Charset 'null' not found.
+2024-05-14 15:06:52.804 - Charset 'null' not found.
+2024-05-14 15:06:52.805 - Charset 'null' not found.
+2024-05-14 15:06:52.805 - Charset 'null' not found.
+2024-05-14 15:06:52.805 - Charset 'null' not found.
+2024-05-14 15:06:52.805 - Charset 'null' not found.
+2024-05-14 15:06:52.805 - Charset 'null' not found.
+2024-05-14 15:06:52.806 - Charset 'null' not found.
+2024-05-14 15:06:52.806 - Charset 'null' not found.
+2024-05-14 15:06:52.806 - Charset 'null' not found.
+2024-05-14 15:06:52.806 - Charset 'null' not found.
+2024-05-14 15:06:52.806 - Charset 'null' not found.
+2024-05-14 15:06:52.806 - Charset 'null' not found.
+2024-05-14 15:06:52.806 - Charset 'null' not found.
+2024-05-14 15:06:52.806 - Charset 'null' not found.
+2024-05-14 15:06:52.807 - Charset 'null' not found.
+2024-05-14 15:06:52.807 - Charset 'null' not found.
+2024-05-14 15:06:52.807 - Charset 'null' not found.
+2024-05-14 15:06:52.807 - Charset 'null' not found.
+2024-05-14 15:06:52.807 - Charset 'null' not found.
+2024-05-14 15:06:52.807 - Charset 'null' not found.
+2024-05-14 15:06:52.807 - Charset 'null' not found.
+2024-05-14 15:06:52.807 - Charset 'null' not found.
+2024-05-14 15:06:52.808 - Charset 'null' not found.
+2024-05-14 15:06:52.808 - Charset 'null' not found.
+2024-05-14 15:06:52.808 - Charset 'null' not found.
+2024-05-14 15:06:52.808 - Charset 'null' not found.
+2024-05-14 15:06:52.808 - Charset 'null' not found.
+2024-05-14 15:06:52.808 - Charset 'null' not found.
+2024-05-14 15:06:52.808 - Charset 'null' not found.
+2024-05-14 15:06:52.809 - Charset 'null' not found.
+2024-05-14 15:06:52.809 - Charset 'null' not found.
+2024-05-14 15:06:52.809 - Charset 'null' not found.
+2024-05-14 15:06:52.809 - Charset 'null' not found.
+2024-05-14 15:06:52.809 - Charset 'null' not found.
+2024-05-14 15:06:52.809 - Charset 'null' not found.
+2024-05-14 15:06:52.809 - Charset 'null' not found.
+2024-05-14 15:06:52.809 - Charset 'null' not found.
+2024-05-14 15:06:52.810 - Charset 'null' not found.
+2024-05-14 15:06:52.810 - Charset 'null' not found.
+2024-05-14 15:06:52.810 - Charset 'null' not found.
+2024-05-14 15:06:52.810 - Charset 'null' not found.
+2024-05-14 15:06:52.810 - Charset 'null' not found.
+2024-05-14 15:06:52.810 - Charset 'null' not found.
+2024-05-14 15:06:52.810 - Charset 'null' not found.
+2024-05-14 15:06:52.810 - Charset 'null' not found.
+2024-05-14 15:06:52.811 - Charset 'null' not found.
+2024-05-14 15:06:52.811 - Charset 'null' not found.
+2024-05-14 15:06:52.811 - Charset 'null' not found.
+2024-05-14 15:06:52.811 - Charset 'null' not found.
+2024-05-14 15:06:52.811 - Charset 'null' not found.
+2024-05-14 15:06:52.811 - Charset 'null' not found.
+2024-05-14 15:06:52.811 - Charset 'null' not found.
+2024-05-14 15:06:52.812 - Charset 'null' not found.
+2024-05-14 15:06:52.812 - Charset 'null' not found.
+2024-05-14 15:06:52.812 - Charset 'null' not found.
+2024-05-14 15:06:52.812 - Charset 'null' not found.
+2024-05-14 15:06:52.812 - Charset 'null' not found.
+2024-05-14 15:06:52.818 - Connected (mysql8-18f773684d0-2cba79ad92a4f8ce, MySQL Connector/J [mysql-connector-j-8.2.0 (Revision: 06a1f724497fd81c6a659131fda822c9e5085b6c)])
+2024-05-14 15:06:52.829 - Execution context closed (jdbc:mysql://localhost:3306/sportsscheduler, 1)
+2024-05-14 15:06:52.829 - Disconnected (mysql8-18f773684d0-2cba79ad92a4f8ce)
+> Start DBeaver SQL Terminal [org.jkiss.dbeaver.ui.editors.sql.terminal 1.0.104.202404071654]
+> Start Core Compare Support [org.eclipse.compare.core 3.8.300.v20231106-1240]
+> Start Console [org.eclipse.ui.console 3.13.100.v20230914-0751]
+> Start Debug Core [org.eclipse.debug.core 3.21.200.v20231021-1513]
+> Start DBeaver SQL Language Semantic Model [org.jkiss.dbeaver.model.lsm 1.0.23.202404071654]
+2024-05-14 15:07:36.679 - DBeaver is stopping
+2024-05-14 15:07:36.679 - Stop instance server
+2024-05-14 15:07:37.681 - Instance server has been stopped
+2024-05-14 15:07:37.681 - DBeaver shutdown completed
